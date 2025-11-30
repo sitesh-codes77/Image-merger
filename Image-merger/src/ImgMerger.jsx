@@ -3,7 +3,7 @@ import { Upload, Download, Type, Grid, X, LayoutTemplate } from 'lucide-react';
 
 export default function ImgMerger() {
   const [images, setImages] = useState([]);
-  const [title, setTitle] = useState("Add a sort Heading for your image");
+  const [title, setTitle] = useState("Add a Short Heading for your image");
   const [showTitle, setShowTitle] = useState(true);
   const [bgColor, setBgColor] = useState("#ffffff");
   const [gap, setGap] = useState(20);
